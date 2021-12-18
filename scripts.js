@@ -1,5 +1,5 @@
 //The date that we're counting down to
-var countDownDate = new Date("Feb 25, 2022 12:00:00").getTime();
+var countDownDate = new Date("Feb 24, 2022").getTime();
 
 var x = setInterval(function() {
 
@@ -19,4 +19,4 @@ var x = setInterval(function() {
         document.getElementById("countdown").innerHTML = "EXPIRED";
         }
     }, 1000);
-    
+
