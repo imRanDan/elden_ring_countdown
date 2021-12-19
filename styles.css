@@ -1,28 +1,21 @@
-body {
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
     background-image: url(/img/elden_ring_img.jpg);
+    width: 100vw;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#title {
-    text-align: center;
-}
-
-#countdown {
-    text-align: center;
-    font-size: 60px;
-    font-style: italic;
-    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 .timer-box {
-    width: 50%;
-    margin: auto;
-    margin-top: 350px;
-    background: white; 
-}
-
-.timer-explanation {
-    text-align: center;
-    font-size: 35px;
+    width: 300px;
+    padding: 100px;
+    margin: 100px;
+    color: white;
 }
