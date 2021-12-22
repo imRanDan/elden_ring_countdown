@@ -1,12 +1,22 @@
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
 .timer-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: grey;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: black;
-    z-index: 0;
+    opacity: calc(0.85);
 }
 
 .timer-box h2 {
@@ -17,3 +27,5 @@
 .timer-box p {
     color: white;
 }
+
+@media
