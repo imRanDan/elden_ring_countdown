@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-img {
+.bg-image {
     width: 100%;
     height: auto;
 }
@@ -28,4 +28,14 @@ img {
     color: white;
 }
 
-@media
+@media screen and (max-width: 500px) {
+    .responsive {
+        padding: 0px 20px;
+        background-color:purple;
+    }
+
+    .responsive img {
+        width: 100%;
+        height: auto;
+    }
+}
